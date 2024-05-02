@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centraliza o texto */
+    padding: 20px;
+    max-width: 600px; /* Defina o máximo de largura para o texto */
+    margin-left: auto; /* Centralize horizontalmente */
+    margin-right: auto; /* Centralize horizontalmente */
+
+  }
+
+    description p {
+    margin-top: 20px; /* Adiciona espaço acima do texto */
+  }
+  
+    .circular-photo {
+    width: 800px; /* Ajusta o tamanho da foto */
+    height: auto; /* Mantém a proporção da foto */
+    border-radius: 50%;
+    margin-top: 20px; /* Adiciona espaço acima da foto */
+    margin-left: auto; /* Centraliza a imagem horizontalmente */
+    margin-right: auto; /* Centraliza a imagem horizontalmente */
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .logo {
+    width: 730px; /* ajuste conforme necessário */
+    height: auto; /* ajuste conforme necessário */
+    display: block; /* faz com que a imagem fique centralizada horizontalmente */
+    margin: 0 auto; /* centraliza horizontalmente */
+    border-radius: 50%; /* faz com que a imagem seja exibida como um círculo */
+  }
+  
+  .description-container {
+    display: flex;
+    flex-direction: column; /* Alterado para exibir o título "Sobre nós" acima do texto */
+    align-items: center; /* Centraliza horizontalmente */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .description img {
+    width: 800px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 20px; /* Adiciona espaço acima da imagem */
+    margin-left: auto; /* Centraliza a imagem horizontalmente */
+    margin-right: auto; /* Centraliza a imagem horizontalmente */
+  }
+  
